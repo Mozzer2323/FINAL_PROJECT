@@ -13,12 +13,17 @@
   background-color: black;
 }
 
+/* Use this to edit space between navbar items and logo */
+
 .logo {
   padding: 0.001em;
+  padding-right: 32.4em;
+  padding-left: 23em;
   float: left;
 }
 
 .navmenu {
+  padding-left: 2.5em;
   color: white;
   float: left;
 }
@@ -33,6 +38,8 @@
   list-style: none;
   float: left;
 }
+
+/* Removes blue text from a tag */
 
 .no-link {
   color:inherit;
@@ -52,6 +59,8 @@
   color: white;
   transition: 0.5s linear;
 }
+
+/* Megamenu */
 
 .navmenu ul li ul.megamenu {
    width: 80%;
@@ -91,11 +100,14 @@
   margin-left: 5px;
   border-bottom: 1px solid white;
 }
+
 /* NAV BAR END */
 
+/* HEADER BEGIN */
+
 .indexwrap {
-  padding: 5em;
-  padding-top: 5em;
+  padding: 6em;
+  padding-top: 7em;
 }
 
 .discoverwrap {
@@ -106,7 +118,7 @@
 }
 
 .headlinebox {
-  margin-top: 20%;
+  margin-top: 22%;
   text-align: center;
   padding: 2em;
   float: right;
@@ -127,3 +139,5 @@
   font-weight: bold;
   color: white;
 }
+
+/* HEADER END */
