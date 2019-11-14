@@ -6,81 +6,107 @@
 
 /*NAV BAR */
 
-.navwrap {
+.navbar {
+  display: inline-block;
+  width: 100%;
+  height: 6.8em;
+  background-color: black;
+}
+
+.logo {
+  padding: 0.001em;
+  float: left;
+}
+
+.navmenu {
+  color: white;
+  float: left;
+}
+
+.navmenu ul li {
+  font-family: 'Crete Round', serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  cursor: text;
+  display: inline-block;
+  color: white;
+  list-style: none;
+  float: left;
+}
+
+.no-link {
+  color:inherit;
+  text-decoration:none;
+}
+
+.navmenu ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 1.5em;
+  font-size: 0.875em;
+}
+
+.navmenu ul li a:hover {
+  font-family: 'Crete Round', serif;
+  background-color: gray;
+  color: white;
+  transition: 0.5s linear;
+}
+
+.navmenu ul li ul.megamenu {
+   width: 80%;
+   padding: 1.5em;
+   background-color: gray;
+   position: absolute;
+   display: none;
+}
+
+.navmenu ul li:hover ul.megamenu {
+  color: white;
+  display: block;
+}
+
+.navmenu ul li:hover ul.megamenu li {
+  width: 200px;
+  margin-right: 40px;
+  float: left;
+}
+
+.navmenu ul li:hover ul.megamenu li a {
+  padding: 10px;
+  color: white;
+}
+
+.navmenu ul li:hover ul.megamenu li a:hover {
+  background-color: white;
+  color: gray;
+}
+
+.navmenu ul li:hover ul.megamenu li h1 {
+  font-family: 'Crete Round', serif;
+  padding: 0.1em 0em;
+  font-size: 1em;
+  color: white;
+  text-align: left;
+  margin-left: 5px;
+  border-bottom: 1px solid white;
+}
+/* NAV BAR END */
+
+.indexwrap {
+  padding: 5em;
+  padding-top: 5em;
+}
+
+.discoverwrap {
   width: 100%;
   height:80vh;
   background: url("./images/INDEXIMAGE.jpg");
   background-size: cover;
 }
 
-.nav {
-  position: fixed;
-  width: 100%;
-  line-height: 60px;
-}
-
-.navlogo {
-  padding-top: 0.50em;
-  padding-left: 1em;
-  float: left;
-  height: 2%;
-}
-
-nav ul {
-  font-family: 'Karla', sans-serif;
-  line-height: 60px;
-  list-style: none;
-  background: rgba(0, 0, 0, 0);
-  overflow: hidden;
-  color: #fff;
-  padding: 0;
-  text-align: right;
-  margin: 0;
-  padding-right: 40px;
-  transition: 1s;
-}
-
-nav.black ul {
-  background: #000;
-}
-
-nav ul li {
-  display: inline-block;
-  padding: 16px 40px;;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 16px;
-}
-
-@media(max-width: 786px) {
-  nav ul {
-        max-height: 0px;
-        background: #000;
-  }
-
-  nav.black ul {
-        background: #000;
-  }
-
-  .showing {
-        max-height: 34em;
-  }
-
-  nav ul li {
-        box-sizing: border-box;
-        width: 100%;
-        padding: 24px;
-        text-align: center;
-  }
-
-}
-
-/* NAV BAR END */
-
 .headlinebox {
+  margin-top: 20%;
   text-align: center;
   padding: 2em;
   float: right;
@@ -88,15 +114,16 @@ nav ul li a {
 
 .headlinetxt {
   font-family: 'Crete Round', serif;
+  font-weight: bold;
   color: white;
   padding: 1em;
-  height: 9em;
+  height: 10em;
   width: 40em;
-  background: #4F77BD;
+
 }
 
 .headlinesub {
-  font-size: 1em;
   font-family: 'Karla', sans-serif;
+  font-weight: bold;
   color: white;
 }
