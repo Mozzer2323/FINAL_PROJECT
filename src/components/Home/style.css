@@ -1,0 +1,129 @@
+.App {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  
+  /*NAV BAR */
+  
+  .navbar {
+    display: inline-block;
+    width: 100%;
+    height: 6.8em;
+    background-color: black;
+  }
+  
+  .logo {
+    padding: 0.001em;
+    float: left;
+  }
+  
+  .navmenu {
+    color: white;
+    float: left;
+  }
+  
+  .navmenu ul li {
+    font-family: 'Crete Round', serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    cursor: text;
+    display: inline-block;
+    color: white;
+    list-style: none;
+    float: left;
+  }
+  
+  .no-link {
+    color:inherit;
+    text-decoration:none;
+  }
+  
+  .navmenu ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 1.5em;
+    font-size: 0.875em;
+  }
+  
+  .navmenu ul li a:hover {
+    font-family: 'Crete Round', serif;
+    background-color: gray;
+    color: white;
+    transition: 0.5s linear;
+  }
+  
+  .navmenu ul li ul.megamenu {
+     width: 80%;
+     padding: 1.5em;
+     background-color: gray;
+     position: absolute;
+     display: none;
+  }
+  
+  .navmenu ul li:hover ul.megamenu {
+    color: white;
+    display: block;
+  }
+  
+  .navmenu ul li:hover ul.megamenu li {
+    width: 200px;
+    margin-right: 40px;
+    float: left;
+  }
+  
+  .navmenu ul li:hover ul.megamenu li a {
+    padding: 10px;
+    color: white;
+  }
+  
+  .navmenu ul li:hover ul.megamenu li a:hover {
+    background-color: white;
+    color: gray;
+  }
+  
+  .navmenu ul li:hover ul.megamenu li h1 {
+    font-family: 'Crete Round', serif;
+    padding: 0.1em 0em;
+    font-size: 1em;
+    color: white;
+    text-align: left;
+    margin-left: 5px;
+    border-bottom: 1px solid white;
+  }
+  /* NAV BAR END */
+  
+  .indexwrap {
+    padding: 5em;
+    padding-top: 5em;
+  }
+  
+  .discoverwrap {
+    width: 100%;
+    height:80vh;
+    background: url("./images/INDEXIMAGE.jpg");
+    background-size: cover;
+  }
+  
+  .headlinebox {
+    margin-top: 20%;
+    text-align: center;
+    padding: 2em;
+    float: right;
+  }
+  
+  .headlinetxt {
+    font-family: 'Crete Round', serif;
+    font-weight: bold;
+    color: white;
+    padding: 1em;
+    height: 10em;
+    width: 40em;
+  
+  }
+  
+  .headlinesub {
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    color: white;
+  }
