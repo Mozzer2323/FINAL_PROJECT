@@ -15,7 +15,7 @@ function App() {
                 <li><a class='no-link' href="#">SHOP</a>
                   <ul class="megamenu">
                     <li>
-                      <h1>Apparrel</h1>
+                      <h1>APPAREL</h1>
                       <a href="#">T-Shirts</a>
                       <a href="#">Sweaters</a>
                       <a href="#">Coats</a>
@@ -23,6 +23,26 @@ function App() {
                       <a href="#">Pants</a>
                       <a href="#">Shorts</a>
                       <a href="#">Jeans</a>
+                    </li>
+
+                    <li>
+                      <h1>SHOES</h1>
+                      <a href="#">Sneakers</a>
+                      <a href="#">Dress Shoes</a>
+                      <a href="#">Boots</a>
+                      <a href="#">Sandals</a>
+                      <a href="#">Slippers</a>
+                    </li>
+
+                    <li>
+                      <h1>ACCESSORIES</h1>
+                      <a href="#">Bags</a>
+                      <a href="#">Wallets</a>
+                      <a href="#">Headwear</a>
+                      <a href="#">Sunglasses</a>
+                      <a href="#">Watches</a>
+                      <a href="#">Underwear</a>
+                      <a href="#">Socks</a>
                     </li>
                   </ul>
                 </li>
@@ -52,20 +72,36 @@ function App() {
           </div>
         </div>
 
-        <br></br>
-
-        <div class="indexwrap">
-          <div class="discoverwrap">
-            <div class="headlinebox">
-              <div class="headlinetxt">
-                <h1>Shop Our Latest Winter Arrivals</h1>
-                <div class="headlinesub">
-                  <p>Dress (adjective) this season with new arrivals from Maison Margiela, Rick Owens, Burberry, and more.</p>
-                </div>
-              </div>
+        
+        <div class="popitemswrap">
+          <div class="popitemscont">
+          <div class="popitemshead">
+            <h1>Popular Items</h1>
+          </div>
+          <div class="itemcards">
+            <div class="itemcard">
+              <p>Item</p>
+            </div>
+            <div class="itemcard">
+              <p>Item</p>
+            </div>
+            <div class="itemcard">
+              <p>Item</p>
+            </div>
+            <div class="itemcard">
+              <p>Item</p>
+            </div>
+            <div class="itemcard">
+              <p>Item</p>
             </div>
           </div>
+          </div>
         </div>
+
+
+
+
+
       </div>
     </Animated>
 
